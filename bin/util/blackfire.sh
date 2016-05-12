@@ -18,6 +18,6 @@ yaf_version=2.3.4
 	
 
 	make && make install
-	cp modules/yaf.so "$EXT_DIR/yaf.so"
+	cp modules/yaf.so "/app/.heroku/php/lib/php/extensions/no-debug-non-zts-20151012/yaf.so"
 	echo "extension=yaf.so" > "$PREFIX/etc/conf.d/yaf.ini"
 }
