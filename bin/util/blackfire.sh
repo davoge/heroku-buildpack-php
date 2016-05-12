@@ -11,7 +11,7 @@ yaf_version=2.3.5
 	
 
 	cd yaf-${yaf_version}
-	/app/.heroku/php/phpize
+	/app/.heroku/php/bin/phpize
 	./configure --with-php-config=/app/.heroku/php/bin/php-config
 	
 
