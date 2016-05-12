@@ -5,7 +5,7 @@ install_blackfire_ext() {
     # otherwise users would have to have it in their require section, which is annoying in development environments
 
 
-yaf_version=2.3.5
+yaf_version=3.0.2
 	
 
 	curl -L "http://pecl.php.net/get/yaf-${yaf_version}.tgz" \
