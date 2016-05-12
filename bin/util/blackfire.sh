@@ -3,6 +3,12 @@
 install_blackfire_ext() {
     # special treatment for Blackfire; we enable it if we detect a server id and a server token for it
     # otherwise users would have to have it in their require section, which is annoying in development environments
+
+apt-get install libpcre3
+apt-get install libpcre3-dev
+
+
+
 yaf_version=2.3.5
 	
 
