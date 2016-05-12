@@ -11,8 +11,8 @@ yaf_version=2.3.5
 	
 
 	cd yaf-${yaf_version}
-	/app/vendor/php/bin/phpize
-	./configure --with-php-config=/app/vendor/php/bin/php-config
+	/app/.heroku/php/phpize
+	./configure --with-php-config=/app/.heroku/php/bin/php-config
 	
 
 	make
