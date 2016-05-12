@@ -16,5 +16,8 @@
         "bin/heroku-hhvm-nginx",
         "bin/heroku-php-apache2",
         "bin/heroku-php-nginx"
-    ]
+    ],
+  "require": {
+    "php": "^5.6.0"
+  }
 }
