@@ -17,7 +17,7 @@ yaf_version=2.3.4
 	./configure --with-php-config=/app/.heroku/php/bin/php-config
 	
 
-	make
+	make && make install
 	cp modules/yaf.so "$EXT_DIR/yaf.so"
 	echo "extension=yaf.so" > "$PREFIX/etc/conf.d/yaf.ini"
 }
