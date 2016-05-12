@@ -44,7 +44,8 @@ ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/include/gmp.h
 
 # IMAP
 apt-get install -y libpam0g-dev || { echo "Failed to install libpam0g-dev; are you running this in a Docker build?"; exit 1; }
-
+apt-get install -y libpcre3-dev
+#apt-get install -y php5-dev
 # we need libicu-dev for intl
 apt-get install -y libicu-dev || { echo "Failed to install libicu-dev; are you running this in a Docker build?"; exit 1; }
 
